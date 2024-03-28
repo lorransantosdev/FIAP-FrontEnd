@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Vizualiza o tamanho disponivel para uso (automatc) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    
+</head>
+
+<body>
+    
+    <main>
+        <form>
+            <div>
+                <label for="txtNome">Nome: </label>
+                <!-- input: insirir / type: tipo / placeholder: Escrito dentro da box / id: "class" unico / name: nome do input -->
+                <input type="text" placeholder="Digite o seu nome" id="txtNome" name="txtNome">
+            </div>
+            <div>
+                <label for="txtemail">Email: </label>
+                <input type="email"placeholder="Digite o seu e-mail" id="txtemail" name="txtemail">
+            </div>
+            <div>
+                <label for="txtSenha">Senha: </label>
+                <input type="password"placeholder="Digite sua senha" id="txtSenha" name="txtSenha">
+            </div>
+            <div>
+                <label for="dataNascimento">Senha: </label>
+                <input type="date"placeholder="Digite sua senha" id="dataNascimento" name="dataNascimento">
+            </div>
+            <div>
+                <label for="selectEstado">Selecione seu estado</label name="selectEstado">
+                <select id="selectEstado">
+                    <option>SP</option>
+                    <option>RJ</option>
+                    <option>MG</option>
+                    <option>PR</option>
+                </select>
+            </div>
+
+            <input type="submit" value="Finalizar">
+        </form>
+    </main>
+</body>
+
+</html>
