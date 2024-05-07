@@ -1,0 +1,171 @@
+/* IMPORTAÇÃO DE FONTE DO GOOGLE DE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;
+    text-decoration: none; */
+}
+
+
+body {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+    background-color: #1e2235;
+    color: white;
+    /* margin-left: 70px;
+    margin-right: 70px; */
+}
+
+.container {
+    width: 80%; /*80% da tela*/
+    margin: 0 auto;
+    max-width: 1200px; /* quando for em telas muito grandes, vai fixar, parar não alterar a esturtura */
+    
+}
+
+nav {
+    padding-top: 50px; /*50px em cima e 0 dos lados*/
+    display: flex;
+    justify-content: space-between; /*espaço entre os dois elementos*/ 
+}
+
+nav img {
+    width: 54px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center; /*centraliza verticalmente*/
+    flex-wrap: wrap; /*quebra os elementos*/
+    gap: 10px; /*espaço entre os elementos do menu*/
+    list-style: none; /*tira as bolinhas*/
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.linha {
+    border-left: 1px solid #fff;
+    height: 30px;
+
+}
+
+.btn-outline {
+    
+    padding: 10px 15px; 
+    background-color: #1e2235;
+    text-decoration: none;
+    border: 2px solid white; 
+    border-radius: 5px; 
+    /* cursor: pointer;  */
+    
+}
+
+.btn {
+    text-decoration: none;
+    color:white;
+    padding: 10px 15px; 
+    background-color: #8b5cf6;
+    text-decoration: none;
+    border: 1px solid #8b5cf6; 
+    border-radius: 5px; 
+    /* cursor: pointer;  */
+    
+}
+
+.banner-header { 
+    padding-top: 5rem; /*rem = 16px = 1rem (importante para responsividade*/ 
+
+    justify-content: 5rem;
+    display: flex;
+    flex-wrap: wrap; /*qubra*/
+}
+
+.banner-header .text-esquerda {
+    width: 40%;
+    min-width: 360px;
+
+}
+
+.banner-header h2 {
+    text-transform: uppercase;
+    font-size: 0.9rem; /*tamanho da fonte é 90% do padrão do html*/
+    color: #8b5cf6;
+    letter-spacing: 2px; /*espaço entre as letras*/
+}
+
+.banner-header h1 {
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.9rem;
+}
+
+.banner-header p {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.8rem; /*altura da linha*/
+}
+
+.banner-header .belowButton {
+    font-size: 0.85rem;
+}
+
+
+.banner-header .dashboard-direita {
+    width: 55%;
+}
+
+
+.dashboard {
+    display: flex;
+    justify-content: flex-end; /*espaço entre os elementos*/
+    gap: 10px; /*espaço entre os elementos do flex*/
+
+}
+
+.group-bocks {
+    width: 45%;
+    max-width: 270px;
+    min-width: 250px;
+    border: 1px solid red;
+
+}
+
+.block {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20); /*sombra*/ /*rgb A (transparencia*/
+    margin-bottom: 10px;
+}
+
+.block-a {
+    height: 300px;
+    background: rgb(53,56,73);
+    background: linear-gradient(128deg, rgba(53,56,73,1) 0%, rgba(53,56,73,1) 41%, rgba(40,124,143,1) 100%);
+}
+
+.block-b {
+    height: 120px;
+    background: rgb(53,56,73);
+background: linear-gradient(142deg, rgba(53,56,73,1) 0%, rgba(53,56,73,1) 56%, rgba(139,92,246,1) 100%);
+}
+
+@media sreen and (max-width: 768px) {
+    .banner-head .dashboard-direita{
+        width: 100%;
+    
+    }
+    
+    nav ul {
+        display: none;
+    }
+}

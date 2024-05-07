@@ -1,0 +1,77 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+
+}
+
+
+
+.bloco1 {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+}
+
+.bloco2 {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+}
+
+.bloco3 {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IMPORTANTE */
+
+/* 1º flex-direction (define o eixo pricipal -padrão ROW)- row-reverse -- column - column-reverse */
+
+/* 2º justify-content (direciona os elementos) flex-start (right); flex-end (left); center; space-between (distribui ao longo do eixo principal); space-around (espaço entre os elemnteos e margen) */
+
+/* 3º aling-itens (personalizada no eixo perpendicular): flex-start (up or left); flex-end (low or right); center; stretch (elementos ocupam todo o eixo); baseline (alinha todos os elemtenos conforme os conteudo) */
+
+/* 4º aling-content (personaliza o eixo perpendicular): flex-start (right); flex-end (left); center; space-between (distribui ao longo do eixo principal); space-around (espaço entre os elemnteos e margen) */
+
+/* 5º flex-wrap (padrao = nowrap): wrap (desce uma linha caso o elemento chegue ao final); wrap-reverse (quebra para cima);  */
+
+/* 6º flex-flow (junta wrap com flex-direction) */
+
+/* 7º gap (distancia definida):  */
+
+
+
+/* 1º order (organiza na ordem desejada: order: 0; (fica na ordem do HTML)) */
+
+/* 2º flex-grow (pode ou não crescer, padrão 0) */
+
+/* 3º flex-shrink (diminui, padrao 1) */
+
+/* 4º flex-basis(define largura e altura, padrao = auto) */
+
+/* 5º flex (junçao de 3 prop. grow-shrink-basis) */
+
+/* 6º align-self (desrespeita o aling-itens):  flex-start (right); flex-end (left); center; space-between (distribui ao longo do eixo principal); space-around (espaço entre os elemnteos e margen) */
+
