@@ -1,0 +1,68 @@
+.container-button {
+    margin-left: auto; /* Empurra o elemento para a direita */
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+.voltar {
+    margin: 20px;
+    padding: 7px 20px;
+    background-color: red;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.8s;
+
+}
+
+.voltar:hover {
+    background-color: white;
+    border: rgb(189, 186, 186);
+    color: red;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+div {
+    background-color: #babafd;
+}
+
+.medida-pixel {
+    width: 1200px;
+}
+
+.medida-porcentagem {
+    width: 50%; /*50% da tela*/
+}
+
+
+.sub-grupo {
+    background-color: blue;
+
+}
+
+.medida-vw {
+    width: 50vw;
+}
+
+
+.medida-vh {
+    height: 100vh;
+}
+
+
+/*Pega referente ao pai (padrão html 16px)*/
+.medida-em {
+    font-size: 2em;
+}
+
+
+.medida-rem {
+    font-size: 2rem;
+}

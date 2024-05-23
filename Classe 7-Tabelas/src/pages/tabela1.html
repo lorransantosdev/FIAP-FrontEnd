@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <link rel="stylesheet" href="tabela1.css">
+
+    <link rel="stylesheet" href="/Classe 7-Tabelas/public/css/fonts.css">
+    <link rel="stylesheet" href="/Classe 7-Tabelas/public/css/global.css">
+
+</head>
+
+<body>
+    
+    <table class="gastos">
+        <thead> <!-- cabeçalho -->
+            <tr>
+                <!-- colspan ("mescla") -->
+                <th colspan="3">Gastos Mensais</th> 
+            </tr>
+
+            <tr>
+                <th>Mounth</th>
+                <th>Description</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>Mercado</td>
+                <td>R$ 800</td>
+                <td colspan="2"></td>                
+            </tr>
+
+            <tr>    
+                <td rowspan="3">Fereiro</td>
+                <td>Aluguel</td>
+                <td>R$ 1000</td>
+            </tr>
+
+            <tr>    
+                <td>Cinema</td>
+                <td>R$ 700</td>
+            </tr>
+
+            <tr>    
+                <td>Viagem</td>
+                <td>R$ 900</td>
+            </tr>
+
+            <tr>    
+                <td colspan="2">Valor total</td>
+                <td>R$ 3400</td>
+            </tr>
+
+
+
+
+        </tbody>
+
+
+    </table>
+
+
+
+</body>
+
+</html>
