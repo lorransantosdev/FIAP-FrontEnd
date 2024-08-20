@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.box-title h1 {
+    font-size: 1.6rem;
+}
+
+.box-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.interactions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #222;
+    font-size: 1rem;
+}
+
+#show {
+    position: absolute;
+    z-index: 2;
+    bottom: 10%;
+    right: 15%;
+    border-radius: 10px;
+    border: 1px solid #222;
+    display: flex;
+    padding: 0.8% 1%;
+    align-items: center;
+    gap: 5px;
+    color: #222;
+}
+
+#show span {
+    font-size: 0.9rem;
+    font-weight: 545;
+}
+
+
+.photos {
+    display: grid;
+    grid-template-rows: 180px 180px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.photos div {
+    width: 100%;
+    height: 100%;
+}
+
+.photos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img1 {
+    grid-area: span 2 / span 2;
+}
+
+.img1 img {
+    border-radius: 26px 0 0 26px;
+}
+
+.img3 img {
+    border-radius: 0 26px 0 0;
+}
+
+.img5 img {
+    border-radius: 0 0 26px 0;
+}
