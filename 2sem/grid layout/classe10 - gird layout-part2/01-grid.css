@@ -1,0 +1,21 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 10px solid #9f0627;
+
+    display: grid; /*colocar na tag father*/
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: 100px 3fr minmax(100px, 1fr); /*referente ao item-1, item-2 e item-3, respectivamente*/
+    /*minmax() serve para dar um minimo e um maximo*/
+    gap: 10px 30px; /*row colum*/
+
+    grid-auto-rows: 100px; /*quando precisa de uma nova linha aqui posso definir, se caso ele precisar criar, as especificações desta linha*/
+}
+
+.item {
+    padding: 10px;
+    background-color: #fe6f8e;
+    color: white;
+    border: 10px solid #ff315e;
+}
+
